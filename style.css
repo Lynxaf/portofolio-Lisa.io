@@ -1,0 +1,440 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    display: inline;
+}
+
+main {
+    background-color: white;
+}
+
+navbar {
+    background-color: #213555;
+    padding: 20px;
+    display: flex;
+    position: sticky;
+    top: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.nav {
+    justify-content: space-around;
+    flex-grow: 1;
+}
+
+.logo {
+    width: 20px;
+}
+
+.nav ul {
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+ 
+.nav ul li {
+    list-style: none;
+}
+
+.nav ul li a {
+    text-decoration: none;
+    justify-content: space-between;
+    font-size: 18px;
+    font-weight: 400;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+}
+
+.container2 .sosmed {
+    display: flex;
+    justify-content: center;
+}
+
+.container2 .sosmed img {
+    width: 50px;
+    padding: 10px;
+}
+
+.container3 .username {
+    margin: 20px;
+}
+
+.perkenalan {
+    width: auto;
+    background-color: #213555;
+    height: 50%;
+    padding: 40px;
+    text-align: center;
+}
+
+.perkenalan .name {
+    color: white;
+    text-align: center;
+    font-size: 25px;
+}
+
+.perkenalan .about {
+    color: white;
+    padding: 20px 50px;
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 200;
+}
+
+.title {
+    padding-top: 7%;
+}
+
+.title h1 {
+    text-align: center;
+    padding: 2%;
+    letter-spacing: 5px;
+    color: #213555;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.projek:hover {
+    transform: scale(1.05);
+}
+
+.container div p {
+    text-align: center;
+}
+
+.sosmed img {
+    width: 30px;
+}
+
+.container-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.container2 {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+}
+
+.container2 .card1 {
+    width: 40%;
+    height: auto;
+    padding: 20px;
+    background-color: #213555;
+    color: white;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 10%;
+    border-radius: 10px 0px 0px 10px ;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0.1,0.1,0.1,0.1);
+}
+
+.container .projek {
+    width: 350px;
+    height: 350px;
+    background-color: #213555;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.2s;
+}
+
+.container2 img {
+    width: 40vh;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0.1,0.1,0.1,0.1);
+}
+
+.container .projek {
+    text-align: center;
+    padding-top: 10px;
+}
+
+.container .projek img {
+    width: 320px;
+    justify-content: center;
+}
+
+.container3 {
+    display: flex;
+    justify-content: space-around;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.container3 div {
+    width: 120px;
+    height: 120px;
+    margin: 10px;
+    border-radius: 15px;
+}
+
+.container3 div img {
+    width: 50px;
+    padding: 35px;
+    margin-top: 20px;
+}
+
+footer {
+    padding: 25px;
+    color: white;
+    background-color: #213555;
+    text-align: center;
+    font-weight: bold;
+}
+
+aside {
+    flex: 1;
+}
+
+.experience-section, .certifications-section {
+    margin: 20px auto;
+    max-width: 80%;
+    width: 100%;  
+    background-color: #EADBC8;
+    padding: 40px; /* Ubah padding jika ingin lebih kecil */
+    border-radius: 10px;
+}
+
+.experience, .certifications {
+    /* Hilangkan margin tambahan agar tidak ada box ganda */
+    background-color: #EADBC8;
+    color: black;
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(33, 53, 85, 0.2);
+    padding: 20px;
+}
+
+.experience-icon, .certification-icon {
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+}
+
+.experience-icon img, .certification-icon img {
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+
+.experience-details, .certification-details {
+    flex: 1;
+}
+
+.experience-1, .certification-1 {
+    display: flex;
+    margin-bottom: 20px; /* Atur jarak antar item */
+}
+
+.experience-2, .certification-2 {
+    display: flex;
+    margin-bottom: 20px; /* Atur jarak antar item */
+}
+
+.experience-1 hr, .certification-1 hr,
+.experience-2 hr, .certification-2 hr {
+    border-top-width: 10px;
+    margin: 20px 0;
+    background-color: black;
+}
+
+.experience-details h3, .certification-details h3 {
+    margin: 0;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: black;
+}
+.certification-item{
+     display: flex;
+     margin: 20px;
+}
+.judul-sertif a{
+   color: black;
+   text-decoration: none;
+}
+.judul-sertif{
+    padding: 5px;
+    width: 150px;
+    text-align: center;
+    border: 2px solid rgb(124, 120, 120);
+    border-radius: 10px;
+}
+
+.experience-details .company, .certification-details .institution {
+    margin: 5px 0;
+    font-size: 1em;
+    color: black;
+}
+
+.experience-details .duration, .certification-details .date-issued,
+.experience-details .location, .certification-details .expiry-date,
+.experience-details .role {
+    margin: 3px 0;
+    font-size: 0.9em;
+    color: black;
+}
+
+.experience-details .description, .certification-details .description {
+    margin: 5px 0;
+    font-size: 0.9em;
+    color: #333;
+}
+
+.more a:link {
+    color: white;
+    text-decoration: none;
+}
+
+.container .projek .judul-projek {
+   font-size: 18px ;
+   color: white;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container .projek .about-projek {
+    font-size: 12px ;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px;
+}
+
+@media screen and (max-width: 1024px) {
+    .navbar {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .projek {
+        width: 80%;
+        margin-bottom: 20px;
+    }
+
+    .container3 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .container3 div {
+        width: 80%;
+        height: auto;
+    }
+}
+
+/* Mobile Styles */
+@media screen and (max-width: 768px) {
+    .navbar {
+        padding: 10px;
+    }
+
+    .nav ul li a {
+        font-size: 16px;
+        padding: 5px;
+    }
+
+    .container2 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .container2 .card1 {
+        width: 80%;
+        padding: 10px;
+        margin-bottom: 20px;
+    }
+
+    .container2 img {
+        width: 80%;
+    }
+
+    .container .projek {
+        width: 100%;
+        height: auto;
+    }
+
+    .experience-section, .certifications-section {
+        width: 100%;
+        padding: 20px;
+    }
+    
+    .experience, .certifications {
+        padding: 10px;
+    }
+
+    .experience-1, .experience-2, .certification-1, .certification-2 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .experience-details, .certification-details {
+        text-align: center;
+    }
+
+    .judul-sertif {
+        width: 100%;
+    }
+}
+
+/* Small Mobile Styles */
+@media screen and (max-width: 480px) {
+    .nav ul li a {
+        font-size: 14px;
+        padding: 5px;
+    }
+
+    .container2 .card1 {
+        width: 90%;
+        padding: 5px;
+    }
+
+    .container2 img {
+        width: 90%;
+    }
+
+    .experience-section, .certifications-section {
+        padding: 10px;
+    }
+
+    .experience, .certifications {
+        padding: 5px;
+    }
+
+    .experience-1, .experience-2, .certification-1, .certification-2 {
+        margin-bottom: 10px;
+    }
+}
