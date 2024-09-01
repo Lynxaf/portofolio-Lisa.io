@@ -107,10 +107,12 @@ h1 {
 
 .container {
     width: 80%;
-    margin: 0 auto;
+    margin: 20px auto 0;
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+    height: auto;
+   
 }
 
 .projek:hover {
@@ -154,12 +156,13 @@ h1 {
 
 .container .projek {
     width: 350px;
-    height: 350px;
+    height: auto;
     background-color: #213555;
     border-radius: 10px;
     overflow: hidden;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
     transition: transform 0.2s;
+    margin-bottom: 20px;
 }
 
 .container2 img {
